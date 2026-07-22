@@ -1,0 +1,35 @@
+# QuizMaster Questions File
+# Format: Category|Question|OptionA|OptionB|OptionC|OptionD|CorrectOption(A/B/C/D)
+# Lines starting with '#' and blank lines are ignored.
+Java Basics|Which keyword is used to define a constant in Java?|const|final|static|immutable|B
+Java Basics|What is the default value of a boolean variable in Java?|true|false|0|null|B
+Java Basics|Which of these is not a primitive data type in Java?|int|boolean|String|char|C
+Java Basics|Which operator is used to compare two values for equality?|=|==|===|.equals|B
+Java Basics|What is the size of an int in Java?|8 bits|16 bits|32 bits|64 bits|C
+Java Basics|Which method is the entry point of a Java application?|start()|main()|run()|init()|B
+Java Basics|Which keyword is used to inherit a class in Java?|implements|extends|inherits|super|B
+Java Basics|Which of the following is used to handle exceptions in Java?|try-catch|if-else|switch|for|A
+OOP Concepts|Which OOP principle allows a class to inherit properties from another class?|Encapsulation|Polymorphism|Inheritance|Abstraction|C
+OOP Concepts|What is method overriding an example of?|Compile-time polymorphism|Runtime polymorphism|Encapsulation|Abstraction|B
+OOP Concepts|Which access modifier makes a member accessible only within its own class?|public|protected|private|default|C
+OOP Concepts|What is the process of binding data and methods together called?|Inheritance|Encapsulation|Polymorphism|Abstraction|B
+OOP Concepts|Which keyword is used to prevent a class from being inherited?|static|final|abstract|private|B
+OOP Concepts|Can an abstract class have a constructor in Java?|Yes|No|Only in Java 8+|Only static constructors|A
+OOP Concepts|What is method overloading based on?|Return type only|Method name and parameter list|Access modifier|Class name|B
+OOP Concepts|Which of the following supports multiple inheritance in Java?|Classes|Interfaces|Abstract classes|Enums|B
+Collections Framework|Which interface does ArrayList implement?|Set|List|Map|Queue|B
+Collections Framework|Which collection class does not allow duplicate elements?|ArrayList|LinkedList|HashSet|Vector|C
+Collections Framework|Which interface is used to store key-value pairs?|List|Set|Map|Queue|C
+Collections Framework|Which class provides a resizable array implementation of the List interface?|LinkedList|ArrayList|HashMap|HashSet|B
+Collections Framework|Which of the following maintains insertion order?|HashSet|HashMap|LinkedHashMap|TreeSet|C
+Collections Framework|Which method is used to add an element to an ArrayList?|insert()|push()|add()|put()|C
+Collections Framework|Which collection class sorts its elements automatically?|ArrayList|HashSet|TreeSet|LinkedList|C
+Collections Framework|What is the time complexity of accessing an element by index in an ArrayList?|O(n)|O(log n)|O(1)|O(n^2)|C
+Exception Handling|Which keyword is used to explicitly throw an exception in Java?|throw|throws|catch|raise|A
+Exception Handling|Which block is always executed regardless of whether an exception occurs?|try|catch|finally|throw|C
+Exception Handling|What is the parent class of all exceptions in Java?|Error|Throwable|Exception|RuntimeException|B
+Exception Handling|Which type of exception must be either caught or declared using throws?|Checked exception|Unchecked exception|Runtime exception|Error|A
+Exception Handling|Which of these is an unchecked exception?|IOException|SQLException|NullPointerException|ClassNotFoundException|C
+Exception Handling|Which keyword is used in a method signature to declare that it may throw an exception?|throw|throws|catch|try|B
+Exception Handling|Can multiple catch blocks be used with a single try block?|Yes|No|Only in Java 8+|Only with finally|A
+Exception Handling|What happens if an exception is not handled in a program?|It is ignored|The program terminates abnormally|It restarts the program|Nothing happens|B
